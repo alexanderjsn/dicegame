@@ -1,9 +1,12 @@
-document.addEventListener("DOMContentLoaded"), function(){
+document.addEventListener("DOMContentLoaded", function(){
 let buttons = document.getElementsByTagName("button");
 let playerdice = 0;
 let opponentdice = 0;
 let opponentscore = 0;
 let playerscore = 0;
+let test;
+
+
 
 function rollDice() {
     document.getElementById("blue.jpg").style.display = "block";
@@ -34,5 +37,6 @@ for (let button of buttons) {
         alert(`Congratulations, you won!`); playerscore = 0; opponentscore = 0;}
         else if (opponentscore == 10) {
             alert(`Sorry, you lost!`); playerscore = 0; opponentscore = 0;}
-    
-    })}}
+    })
+        }
+    })

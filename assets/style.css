@@ -25,4 +25,6 @@ hr {
     margin: 0 auto;
 }
 
-
+.opponentscore, .playerscore {
+    color: white;
+}
