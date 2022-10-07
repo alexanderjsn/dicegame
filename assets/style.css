@@ -14,7 +14,8 @@
 hr {
     width: 100%;
     height: 4px;
-    background-color: black;   
+    background-color: white;   
+    
 }
 
 .gamefield {
@@ -22,4 +23,13 @@ hr {
     width: 50%;
     height: 600px;
     margin: 0 auto;
+}
+
+
+button {
+    border: 0ch;
+    background-color: red;
+    color: white;
+    width: 20%;
+    height: 40px;
 }
