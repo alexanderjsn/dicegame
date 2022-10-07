@@ -4,8 +4,8 @@ let playerdice = 0;
 let opponentdice = 0;
 let opponentscore = 0;
 let playerscore = 0;
-let test;
-
+let test = 0;
+//testing update//
 
 
 function rollDice() {
