@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded"), function(){
-let buttons = document.getElementById("button");
+let buttons = document.getElementsByTagName("button");
 let playerdice = 0;
 let opponentdice = 0;
 let opponentscore = 0;
@@ -25,5 +25,9 @@ for (let button of buttons) {
     document.getElementsByClassName("playerdice")[0].innerHTML = playerscore;
     document.getElementsByClassName("opponentdice")[0].innerHTML = playerscore;
 
-
+    if(playerscore == 10) {
+        alert(`Congratulations, you won!`); playerscore = 0; opponentscore = 0;}
+        else if (opponentscore == 10) {
+            alert(`Sorry, you lost!`); playerscore = 0; opponentscore = 0;}
+    
     })}}
