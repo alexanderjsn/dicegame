@@ -12,4 +12,11 @@ for (let button of buttons) {
             console.log(playerdice);
         let opponentdice = Math.floor(Math.random() * 6);
             console.log(opponentdice);
+            if (playerdice > opponentdice) {
+                playerscore += 1;
+            } else if (opponentdice > playerdice) {
+                opponentscore += 1;
+            } if (opponentdice == playerdice) {
+                opponentscore += 1; playerscore += 1;
+            } 
     })}}
